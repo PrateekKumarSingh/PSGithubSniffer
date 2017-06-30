@@ -3,7 +3,7 @@ param()
 
 $APIEndpoint = 'http://api.github.com'
 $IntervalInMins = 60
-$Header = @{Authorization = 'Basic {0}' -f [System.Convert]::ToBase64String([char[]]'77ebf963bdc0d369755c1948b651f9c7dc6d2d9d')}
+$Header = @{Authorization = 'Basic {0}' -f [System.Convert]::ToBase64String([char[]]'')}
 
 $SplatParam = @{
                 Header  = $Header
